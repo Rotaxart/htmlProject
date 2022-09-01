@@ -1,0 +1,22 @@
+body{
+    margin: 96px 65px;
+    font-size: 25px;
+}
+
+h1, h2{
+    color:white;
+    background-color: black;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+
+p{
+    margin: 30px 0px;
+    font-weight: bold;
+}
+
+ul{
+    margin: 50px 0px;
+    font-weight: bold;
+}
