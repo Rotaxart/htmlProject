@@ -14,7 +14,6 @@
     color: white;
     background-color: #E5E000;
     height: 200px;
-    width: 1440px;
     display: flex;
   }
 
@@ -33,9 +32,8 @@
   }
   .image {
     background-image: url(images/img.jpg);
-    background-size: auto;
+    background-size: cover;
     display: flex;
-    width: 1440px;
     height: 1080px;
   }
 
@@ -52,7 +50,6 @@
   .text-container {
     font-size: 50px;
     display: flex;
-    width: 1440px;
     flex-direction: column;
     
   }
@@ -86,7 +83,6 @@
     color: white;
     background-color: #E5E000;
     height: 200px;
-    width: 1440px;
     display: flex;
     justify-content: space-between;
     padding: 80px 0px;
