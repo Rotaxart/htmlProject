@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+  }
+
+  .header-container{
+    display: flex;
+    justify-content: space-around;
+    height: 140px;
+    width: 100%;
+    /* border: 1px solid #E5E000; */
+    color: #E50043;
+    background-color: #FFFFFF;
+    ;
+    font-size: 50px;
+    padding: 40px;
+    position: fixed;
+    top: 0;
+    
+  }
+
+  .text-logo{
+    font-weight: 400;   
+    /* margin: 40px;
+    margin-left: 50px; */
+    margin-right: auto;
+
+  }
+
+  .links{
+    display: inline;
+    margin-left: 25px;
+
+  }
+
+  .hero-block {
+    background-image: url(images/evian_origins_logo.png);
+    background-size: cover;
+    display: flex;
+    height: 950px; 
+    margin-top: 140px;
+    font-size: 100px;
+    color: #E50043;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .description {
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid #F8BFC7;
+    border-radius: 20px;
+    margin: 150px 200px;
+    padding: 24px;
+  }
+
+  .photos-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+    height: 970px;
+  }
+
+  .photos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+    line-height: 29px;
+    width: 281px;
+    height: 970px;
+  
+  }
+
+  #wang {
+    background-image: url(images/wang.png);
+    background-size: cover;
+    width: 281px;
+    height: 863px;
+    /* border: 1px solid #E5E000; */
+  }
+
+  #blue {
+    background-image: url(images/blue.png);
+    background-size: cover;
+    width: 281px;
+    height: 863px;
+    /* border: 1px solid #E5E000; */
+  }
+
+  #chiara {
+    background-image: url(images/chiara.png);
+    background-size: cover;
+    width: 281px;
+    height: 863px;
+    /* border: 1px solid #E5E000; */
+  }
+
+  .text-photo {
+    margin-bottom: 0px;
+    margin-top: auto;
+    text-align: center;
+    /* border: 1px solid #E5E000; */
+  }
+
+  .description-photo {
+    background-image: url(images/glass.png);
+    background-size: cover;
+    height: 220px;
+    width: 101px;
+    margin: 6px 54px;
+    margin-right: auto;
+
+    /* border: 1px solid #E5E000; */
+  }
+
+  .descriprion-text {
+    margin-left: auto;
+    text-align: left;
+    margin-left: 80px;
+    margin-right: auto;
+  }
+
+  .footer {
+    background: #F8BFC7;
+    height: 140px;
+    padding: 40px;
+    font-size: 50px;
+    color: white;
+    /* margin-right: 80px; */
+  }
+
